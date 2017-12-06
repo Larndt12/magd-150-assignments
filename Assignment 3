@@ -1,0 +1,62 @@
+float circleX;
+float circleY;
+float circleZ;
+float circleQ;
+float circleR;
+float circleS;
+float circleA;
+
+
+
+
+
+void setup(){ 
+size(800,650);
+circleX=-4999;
+circleY=-5500;
+circleZ=-6000;
+circleQ=6800;
+circleR=6300;
+circleS=5799;
+circleA=mouseX; min(0,0); max(0,700);
+  circleA=mouseY; min(0,0); max(0,600);
+
+}
+void draw(){
+circleA=mouseX;
+circleA=mouseY;
+ 
+   
+
+ 
+
+  
+background(5);
+noStroke();
+fill(RGB,80,150,255);
+ellipse(circleX,75,10000,100);
+fill(RGB,185,255,255);
+ellipse(circleY,175,10000,100);
+fill(RGB,180,100,255);
+ellipse(circleZ,275,10000,100);
+fill(RGB,255,200,200);
+ellipse(circleQ,375,10000,100);
+fill(-5000);
+ellipse(circleR,475,10000,100);
+fill(-500);
+ellipse(circleS,575,10000,100);
+
+stroke(0);
+fill(255);
+ellipse(circleA,circleA,50,50);
+
+circleX=circleX+2;
+circleY=circleY+2;
+circleZ=circleZ+2;
+circleQ=circleQ-2;
+circleR=circleR-2;
+circleS=circleS-2;
+
+println(circleX);
+println(circleQ);
+}
