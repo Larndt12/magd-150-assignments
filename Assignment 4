@@ -1,0 +1,88 @@
+float x=0;  
+ 
+ int pressed=0;
+ int pressedState=0;
+ int keypressed=0;
+ int keypressedState=0;
+
+void setup(){
+  size(600,400);
+}
+
+void draw(){
+ 
+  
+  
+  noStroke();
+  background(RGB, 10,255,10);
+  if(pressedState == 1){
+  
+    background(RGB,10,100,100);
+  }
+  
+  //pizza and pepperonis
+  fill(-100);
+  ellipse(300,400,450,450);
+  fill(-200);
+  ellipse(300,400,400,400);
+  fill(-770000);
+  ellipse(250,350,50,50);
+  ellipse(200,300,50,50);
+  ellipse(440,325,50,50);
+  ellipse(325,260,50,50);
+  ellipse(345,360,50,50);
+  ellipse(170,410,50,50);
+  ellipse(430,400,50,50);
+  
+  
+  
+  
+  //floating pepperonis
+ while(x<width){
+   println(x);
+   x=x+1;
+   loop();
+  fill(-770000);
+  ellipse(x,150,50,50);
+ }
+  
+  fill(75);
+  triangle(mouseX,mouseY,mouseX+30,mouseY-30,mouseX+30,mouseY+30);
+  if(keypressedState==1){
+  fill(RGB,10,255,500);
+  noStroke();
+  ellipse(150,235,50,50);
+  ellipse(170,240,50,50);
+  ellipse(190,230,50,50);
+  ellipse(210,215,50,50);
+  ellipse(220,200,50,50);
+  
+ }
+     while(x<width){
+   x=x+1;
+   
+  
+ }
+    fill(175);
+  ellipse(90,150,100,50);
+  ellipse(90,170,20,30);
+  ellipse(80,130,20,30);
+  ellipse(40,150,20,50);
+  fill(0);
+  ellipse(120,145,10,10);
+  
+  
+
+  }
+
+void keyPressed() {
+  keypressed=keypressed+1;
+  keypressedState=(keypressed%2);
+  
+ //background change
+ 
+}
+void mousePressed(){
+  pressed=pressed+1;
+  pressedState=(pressed %2);
+}
