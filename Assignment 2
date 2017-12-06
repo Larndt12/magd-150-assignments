@@ -1,0 +1,31 @@
+void setup(){
+background(0);
+size(800,600);
+}
+void draw(){
+fill(-200);
+arc(0,0,490,490,0,HALF_PI,PIE);
+triangle(25,260,40,350,55,258);
+triangle(125,250,180,335,150,235);
+triangle(200,200,265,260,220,175);
+triangle(250,125,330,160,257,100);
+triangle(260,50,345,30,259,25);
+fill(-100000);
+ellipse(450,550,500,500);
+fill(-70000);
+ellipse(650,300,100,100);
+fill(175);
+beginShape();
+vertex(200,20);
+vertex(300,30);
+vertex(400,40);
+vertex(100,100);
+vertex(500,50);
+bezier(901,664,619,510,154,300,499,699);
+fill(75);
+ellipse(550,585,100,100);
+fill(-55000);
+ellipse(550,585,80,80);
+ellipse(600,50,200,200);
+colorMode(RGB,300,400,400,400);
+}
