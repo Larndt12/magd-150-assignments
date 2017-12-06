@@ -1,0 +1,87 @@
+//rect button
+float x =1170;
+float y =680;
+float w =50;
+float h =30;
+//circle button
+float a =1130;
+float b = 695;
+float c = 50;
+float d = 30;
+
+boolean rectOver = false;
+boolean ellipseOver = false;
+boolean rect1pressed = false;
+boolean ellipse1pressed = false;
+
+void setup(){
+  size (1280, 720);
+}
+
+void draw(){
+  background(125, 45, 0);
+  fill (30);  
+  beginShape();
+  vertex(0, 0);
+  vertex(0, width);
+  vertex(width, height);
+  vertex (0, height);
+  vertex(0,0);
+  beginContour();
+  vertex(50,50);
+  vertex(50, height-50);
+  vertex(width-50, height-50);
+  vertex(width -50, 50);
+  endShape();
+ //TV Structure^
+
+ 
+ //ON AND OFF + COLORS
+  
+  fill(105, 45, 0);
+  ellipse(1130,695,60,40);
+  rect(1165,675,60,40);
+  fill(50);
+  noStroke();
+  fill(0);
+  fill(50);
+  rect(x,y,w,h);
+  if(mousePressed){
+    if(mouseX>x && mouseX <x+w && mouseY>y && mouseY <y+h)
+    
+    fill(-10);
+    rect(50,130,147,450);
+    fill(-500);
+    rect(197,130,147,450);
+    fill(RGB,500,255,255);
+    rect(344,130,147,450);
+    fill(RGB,225,20,255);
+    rect(491,130,147,450);
+    fill(-50500);
+    rect(638,130,147,450);
+    fill(-55500);
+    rect(785,130,147,450);
+    fill(RGB,10,255,255);
+    rect(932,130,147,450);
+    fill(0);
+    rect(1079,130,147,450);
+    }
+ fill(50);
+  noStroke();
+  ellipse(a,b,c,d);
+  // if(mousePressed){
+   // if(mouseX>x && mouseX <x+c && mouseY>y && mouseY <y+d)
+
+   
+   
+   
+    
+   
+ textSize(10);
+ fill(100);
+ text("OFF",1122,696);
+ text("ON",1186,696);
+
+
+}
+ 
