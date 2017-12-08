@@ -1,6 +1,6 @@
 # magd-150-assignments
 ### Assignment 1 -https://github.com/Larndt12/magd-150-assignments/blob/gh-pages/Assignment%201 This assignment required me to use shapes such as rectangles, ellipses along with lines and points. The theme for this assignment was buildings which should be constructed using rectangles, ellipses, points and lines. 
-### Assignment 2 -https://github.com/Larndt12/magd-150-assignments/blob/gh-pages/Assignment%202
-### Assignment 3 -https://github.com/Larndt12/magd-150-assignments/blob/gh-pages/Assignment%203
-### Assignment 4 -https://github.com/Larndt12/magd-150-assignments/blob/gh-pages/Assignment%204
-### Assignment 5 -https://github.com/Larndt12/magd-150-assignments/blob/gh-pages/Assignment%205 
+### Assignment 2 -https://github.com/Larndt12/magd-150-assignments/blob/gh-pages/Assignment%202 Assignment 2 required me to create a space/planet themed scene using bezier curves, triangles, arcs, and contour lines. Along with the shapes and lines, I was required to add color to the scene using RGBA or HSBA color options. 
+### Assignment 3 -https://github.com/Larndt12/magd-150-assignments/blob/gh-pages/Assignment%203 For assignment 3 I was required to create a scene that had the theme of a screensaver. The guidelines for this assignment were to use at least four key words, math operators, and funtions along with using a floating point decimal and printline function.
+### Assignment 4 -https://github.com/Larndt12/magd-150-assignments/blob/gh-pages/Assignment%204 Assignment 4 was focused on making and using interactive functions such as mouse and key pressed programs around a oceans (of pizza) theme. There are also requirements of having a for or while loop in the code as well as if-else conditional statements. 
+### Assignment 5 -https://github.com/Larndt12/magd-150-assignments/blob/gh-pages/Assignment%205 Assignment 5 required me to create a scene that depicted a television with funtioning buttons. Each of these buttons needed text to show what each button would do on the television. 
